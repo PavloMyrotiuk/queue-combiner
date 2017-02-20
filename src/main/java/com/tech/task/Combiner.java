@@ -1,8 +1,6 @@
 package com.tech.task;
 
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.SynchronousQueue;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * A com.tech.task.Combiner takes items from multiple input queues and feeds them into a
